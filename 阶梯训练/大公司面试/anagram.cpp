@@ -2,9 +2,9 @@
 //样例
 //给出 s="abcd"，t="dcab"，返回 true
 
-
 //因为如果符合条件则排序后的内容相同，即可判断。
-//所用STL：sort():
+//所用STL：sort()
+
 class Solution {
 public:
     //@param s: The first string
