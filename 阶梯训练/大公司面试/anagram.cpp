@@ -7,11 +7,9 @@
 //所用STL：sort():
 class Solution {
 public:
-    
-     //@param s: The first string
-     //@param b: The second string
-     //@return true or false
-     
+    //@param s: The first string
+    //@param b: The second string
+    //@return true or false
     bool anagram(string s, string t) {
         if(s.size()!=t.size()) return false;
         sort(s.begin(),s.end()); 
