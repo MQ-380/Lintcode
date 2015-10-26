@@ -13,7 +13,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         sort(nums.begin(),nums.end());
-        if(nums.size()==1) return false;   //考虑一个数字的情况！！
+        if(nums.size()==1) return false;  
         for(int j=0;j<nums.size();j++){
             if(nums[j]==nums[j+1]) return true;
         }
